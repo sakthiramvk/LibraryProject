@@ -1,4 +1,15 @@
 # Simple Library Management System (Beginner Level)
+def login():
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    
+    if username == "admin" and password == "123":
+        print("Login successful!\n")
+    else:
+        print("Invalid login!\n")
+
+login()
+
 
 library = []
 
